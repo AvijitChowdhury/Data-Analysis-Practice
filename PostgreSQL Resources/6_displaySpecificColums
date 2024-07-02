@@ -1,0 +1,12 @@
+SELECT * FROM company;
+SELECT * from employee;
+SELECT * FROM department;
+
+SELECT name, revenue FROM company;
+
+
+SELECT * FROM company;
+WHERE revenue < 5000000;
+
+SELECT * FROM company;
+WHERE revenue > 5000000;

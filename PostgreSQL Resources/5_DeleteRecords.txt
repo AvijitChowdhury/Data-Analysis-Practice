@@ -1,0 +1,6 @@
+SELECT * FROM company;
+SELECT * FROM employee;
+SELECT * FROM department;
+
+DELETE FROM employee
+WHERE salary > 100000;

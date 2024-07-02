@@ -1,0 +1,46 @@
+-- Create Table department(
+-- 	id INT PRIMARY KEY,
+-- 	name VARCHAR(50) NOT NULL
+-- );
+-- Create table company(
+-- 	id INT PRIMARY KEY,
+-- 	name VARCHAR(100) NOT NULL,
+-- 	revenue INT
+-- );
+-- CREATE TABLE employee(
+-- 	id INT primary key,
+-- 	name VARCHAR(150) NOT NULL,
+-- 	city VARCHAR(150) NOT NULL,
+-- 	department_id INT NOT NULL,
+-- 	salary INT NOT NULL,
+-- 	FOREIGN KEY (department_id) REFERENCES department(id)
+-- )
+INSERT INTO department
+values
+(1,'IT'),
+(2,'Management'),
+(3,'IT'),
+(4,'Support');
+
+Select * from department;
+Insert into company
+values
+(1,'IBM',200000),
+(2,'Google',900000),
+(3,'Apple',10000000);
+
+Select * from department;
+
+Select * from employee;
+Insert into employee
+values
+(1,'David','London',3,600000),
+(2,'Emily','London',3,70000),
+(3,'Peter','Paris',3,600000),
+(4,'Ava','Paris',3,50000),
+(5,'Penny','London',2,11000),
+(6,'Jim','London',2, 90000),
+(7,'Any','Rome',4,30000),
+(8,'Cloe','London',3,110000);
+
+Select * from department;

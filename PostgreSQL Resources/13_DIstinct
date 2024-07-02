@@ -1,0 +1,6 @@
+SELECT * FROM company;
+SELECT * FROM employee;
+SELECT * FROM department;   
+
+
+SELECT DISTINCT name From department;

@@ -1,0 +1,19 @@
+CREATE TABLE department(
+
+	id INT PRIMARY KEY ,
+	name VARCHAR(50) NOT NULL
+	
+);
+CREATE TABLE company(
+	id INT PRIMARY KEY,
+	name VARCHAR(100) NOT NULL,
+	revenue INT
+);
+CREATE TABLE employee(
+	id INT PRIMARY KEY,
+	name VARCHAR(150) NOT NULL,
+	city VARCHAR(150) NOT NULL,
+	department_id INT NOT NULL,
+	salary INT NOT NULL,
+	FOREIGN KEY (department_id) REFERENCES department(id)
+)

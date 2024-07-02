@@ -1,0 +1,13 @@
+SELECT * FROM employee;
+SELECT * FROM department;
+
+
+SELECT * FROM employee
+WHERE city LIKE 'L%'
+
+SELECT * FROM employee
+WHERE city LIKE 'L%' OR city LIKE '%s';
+
+
+SELECT * FROM employee
+WHERE city LIKE '%s%'

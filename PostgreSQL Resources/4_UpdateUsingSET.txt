@@ -1,0 +1,7 @@
+Select *From company;
+SELECT * FROM employee;
+SELECT * FROM department;
+
+UPDATE department
+SET name = 'Management'
+WHERE id = 1;

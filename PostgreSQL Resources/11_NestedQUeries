@@ -1,0 +1,10 @@
+SELECT * FROM company;
+SELECT * FROM employee;
+SELECT * FROM department;
+
+SELECT name FROM employee;
+WHERE salary > 70000
+AND department_id IN(
+    SELECT id FROM department
+    WHERE name = 'ITS'
+)
